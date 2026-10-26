@@ -1,0 +1,40 @@
+# Visual Studio build output and intermediates
+Builds/**/x64/
+Builds/**/Win32/
+Builds/**/ARM64/
+Builds/**/ARM64EC/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio per-user state
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+*.ipch
+*.aps
+
+# Compiled artifacts
+*.obj
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.idb
+*.exe
+*.dll
+*.vst3
+*.log
+*.tlog
+*.recipe
+
+# Projucer / JUCE
+*.jucer.bak
+
+# Editors and OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
